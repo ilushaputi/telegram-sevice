@@ -1,6 +1,5 @@
 package ru.putintsev.rogaandkopyta.telegramservice.config;
 
-//import liquibase.integration.spring.SpringLiquibase;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -32,6 +31,5 @@ public class DataBaseConfig {
         dataSource.setPassword(password);
         return dataSource;
     }
-
 }
 
